@@ -15,8 +15,13 @@ class String
   end
 
   def count_sentences
+<<<<<<< HEAD
     sentences = self.split(/[\.\?\!]/)
     sentences.delete_if{|sentence| sentence == ""}
+=======
+    sentences = self.split(/[\!\.\?]]/)
+    binding.pry
+>>>>>>> aa9df776447889c93a99bbf8f55933d97e8eb7f7
     sentences.count
   end
 end
